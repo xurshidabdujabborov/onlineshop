@@ -1,0 +1,80 @@
+.Contact {
+  width: 100%;
+}
+.Contact h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2px solid gray;
+  padding: 20px 0px;
+}
+.Contact .left {
+  margin-top: 80px;
+  text-align: left;
+}
+.Contact .left img{
+  width: 100%;
+}
+.Contact .left img:hover{
+  cursor: pointer;
+  transition: .50s;
+  transform: scale(1.15);
+}
+.Contact form{
+  margin-top: 80px;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.Contact form p{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.Contact form input{
+  width: 100%;
+  padding: 8px 0px;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid gray;
+}
+.Contact form input:focus{
+  outline: none;
+}
+.Contact form textarea{
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid gray;
+  text-align: left;
+  padding: 8px 0px;
+  padding-left: 10px;
+}
+.Contact form textarea:focus{
+  outline: none;
+}
+.Contact form button{
+  width: 150px;
+  padding: 8px 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+.Contact form button:hover{
+  cursor: pointer;
+  transition: 1s;
+  background-color: black;
+  color: white;
+}

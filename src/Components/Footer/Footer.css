@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: black;
+}
+footer .logo{
+    text-align: left;
+}
+footer .logo a{
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: white;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li {
+    margin: 0px 50px;
+}
+footer ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+footer .right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+footer .right .css-i4bv87-MuiSvgIcon-root{
+    color: white;
+    margin: 0px 20px;
+    font-size: 25px;
+}

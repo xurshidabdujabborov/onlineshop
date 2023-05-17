@@ -1,0 +1,15 @@
+.Carusel {
+  margin-bottom: 100px;
+  background-color: white;
+}
+.Carusel .img{
+    width: 100%;
+}
+.Carusel .img img {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+}
+.Carusel .img img:hover {
+  cursor: grab;
+}

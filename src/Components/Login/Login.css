@@ -1,0 +1,59 @@
+.Login {
+  width: 100%;
+}
+.Login h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 100px;
+}
+.Login form {
+  text-align: left;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Login form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 0px;
+  color: white;
+}
+.Login form button:hover {
+  cursor: pointer;
+}
+.Login form button .css-i4bv87-MuiSvgIcon-root {
+  margin-right: 10px;
+}
+.Login form input {
+  padding: 8px;
+  margin: 10px 0px;
+  padding-left: 30px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid black;
+  text-align: left !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Login form input:focus{
+    outline: none;
+}
+.Login form p {
+  font-size: 18px;
+  text-align: left;
+}
+.Login form p .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: black;
+}

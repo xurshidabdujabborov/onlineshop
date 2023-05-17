@@ -1,0 +1,100 @@
+.ProductAbout {
+  width: 100%;
+  margin: auto;
+}
+.ProductAbout .boxs {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProductAbout .boxs .img {
+  text-align: right;
+}
+.ProductAbout .boxs .img img {
+  width: 400px;
+  height: 400px;
+}
+.ProductAbout .boxs .text {
+  margin-left: 100px;
+  text-align: left !important;
+}
+.ProductAbout .boxs .text h1 {
+  text-align: left !important;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+.ProductAbout .boxs .text .nan {
+  font-size: 15px;
+  line-height: 25px;
+  text-align-last: left !important;
+  overflow: hidden;
+}
+.ProductAbout .boxs .text .nan h3 {
+  text-align: left !important;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.ProductAbout .boxs .text .nan span {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.ProductAbout .boxs .text .narx {
+  display: flex;
+  align-items: center;
+  text-align: left !important;
+  margin: 10px 0px;
+  text-align: left;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.ProductAbout .boxs .text .narx h3 {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.ProductAbout .boxs .text .end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
+  padding: 5px 10px;
+}
+.ProductAbout .boxs .text h4 {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+.ProductAbout .boxs .text h4 p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.ProductAbout .boxs .addCard {
+  width: 100%;
+  border: 2px solid black;
+  padding: 5px 10px;
+  margin-top: 20px;
+  background-color: transparent;
+  list-style: 2px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+.ProductAbout .boxs .addCard:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
